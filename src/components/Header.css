@@ -1,51 +1,19 @@
-.navBar{
+nav{
     background-color: #282c34;
     width: 100%;
     height: 25px;
 }
-.navBar li{
+nav li{
     display: inline;
     list-style: none;
     padding: 0;
     align-content: center;
 }
-#navbar a:hover{
-    background: darkgrey;
-    font-weight: bold;
-    display: block;
-}
 
-#a{
+#a, #b{
     background-color: teal;
     color: whitesmoke;
     border-radius: 30px;
     text-align: center;
     padding-right: 20px;
-}
-#a::before{
-    content: "";
-    width: calc(20px);
-    height: calc(20px);
-    position: absolute;
-    background-color: #759875;
-    left: 8px;
-    right: 8px;
-    border-radius: 16px;
-}
-#b{
-    background-color: teal;
-    color: whitesmoke;
-    border-radius: 30px;
-    text-align: center;
-    padding-right: 20px;
-}
-#b::before{
-    content: "";
-    width: calc(20px);
-    height: calc(20px);
-    position: absolute;
-    background-color: #759875;
-    left: 8px;
-    right: 8px;
-    border-radius: 16px;
 }
