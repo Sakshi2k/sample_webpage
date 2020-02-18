@@ -1,0 +1,29 @@
+body{
+    padding-top: 0%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 18% 82%;
+    padding: 0px;
+}
+.item1{
+    background-color: rgb(212, 245, 241);
+    height: 500px;
+}
+.item2{
+    background-color: whitesmoke;
+}
+
+.footer{
+    background-color: #666666;
+    padding: 0px 0px;
+}
+
+.footer > li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
